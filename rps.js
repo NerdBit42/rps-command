@@ -3,7 +3,7 @@ module.exports = {
     description: "Rock Paper Scissors.",
     cooldown: 10,
 
-    async execute(client, message, args, cmd, Discord) {
+    async execute(//Enter Your Parameters example: client, message, args, cmd, Discord) {
       let hand = [
         { txt: "Rock", emoji: ":fist:", index: 0 },
         { txt: "Paper", emoji: ":raised_back_of_hand:", index: 1 },
